@@ -1,6 +1,14 @@
 # Run scrapers:
+Please read description.pdf to understand this project, as well as the tools we used to practice.
 
-## With BeautifulSoup:
+## Summary of steps required for experimentation:
+
+### With BeautifulSoup:
++ Step 1: Download all the code in the folder soup:
++ Step 2: Cài đặt đầy đủ các thư viện liên quan:
+          pip install beautifulsoup4        https://pypi.org/project/beautifulsoup4/
+          
+
 
 ## With Selenium:
 
