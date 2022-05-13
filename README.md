@@ -1,5 +1,7 @@
-# project_426246_444135_437971
+# Run scrapers:
 
-# Tutorial how to run scrapers:
+## With BeautifulSoup:
 
-# With BeautifulSoup:
+## With Selenium:
+
+## With Scrapy:
