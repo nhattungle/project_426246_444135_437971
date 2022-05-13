@@ -48,7 +48,7 @@ Please read description.pdf to understand this project, as well as the tools we 
                     docker pull scrapinghub/splash
                     docker run -p 8050:8050 scrapinghub/splash
           
-          Configuration for the Scrappy project (settings.py):
++ Step 3: Configuration for the Scrappy project (settings.py):
 
                     SPLASH_URL = 'http://localhost:8050/'
                     DOWNLOADER_MIDDLEWARES = { 
@@ -57,20 +57,20 @@ Please read description.pdf to understand this project, as well as the tools we 
                         'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810, 
                     }
 
-+ Step 3: Install related libraries:
++ Step 4: Install related libraries:
           
           - pip install scrapy                      https://pypi.org/project/Scrapy/
           - pip install scrapy-splash               https://pypi.org/project/scrapy-splash/
 
-+ Step 4: Run stage by stage
++ Step 5: Run stage by stage
           
           scrapy crawl link_page -o link_pages.csv
           scrapy crawl link_product -o link_products.csv
           scrapy crawl product_detail -o product_details.csv
           
-+ Step 5: Transfer data from CSV to Database
++ Step 6: Transfer data from CSV to Database
 
           python .\ScrapingWithScrapy.py     
 
-+ Step 6: Using SQLiteStudio to check the scraped data on the table product_scrapy
++ Step 7: Using SQLiteStudio to check the scraped data on the table product_scrapy
 
