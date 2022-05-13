@@ -5,8 +5,8 @@ Please read description.pdf to understand this project, as well as the tools we 
 
 ### With BeautifulSoup:
 + Step 1: Download all the code in the folder soup:
-+ Step 2: Cài đặt đầy đủ các thư viện liên quan:
-          pip install beautifulsoup4        https://pypi.org/project/beautifulsoup4/
++ Step 2: Install related libraries:
+          - pip install beautifulsoup4        https://pypi.org/project/beautifulsoup4/
           
 
 
